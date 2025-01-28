@@ -1,0 +1,70 @@
+{
+  "common": {
+    "oops": "Oops...",
+    "error": "Error",
+    "language": "Language",
+    "holder": "Card holder",
+    "number": "Card number",
+    "copy": "Copy"
+  },
+  "auth": {
+    "create_a_pin": "Create a PIN",
+    "enter_your_pin": "Enter your PIN",
+    "sign_in": "Sign in",
+    "sign_up": "Sign up",
+    "token_label": "Referral Token",
+    "token_placeholder": "Enter token",
+    "continue": "Continue",
+    "confirm_a_pin": "Confirm a pin",
+    "pins_dont_match": "PINs don't match",
+    "already_registered": "You are already registered",
+    "verification_code": "Enter the verification code",
+    "code": "Verification code",
+    "refech_code": "Create new",
+    "no_code": "You can request a new code via",
+    "submit": "Submit",
+    "success": "Account created successfully",
+    "login_error": "Incorrect PIN",
+    "logout": "Logout"
+  },
+  "bottom_bar": {
+    "exchange": "Exchange",
+    "history": "History",
+    "settings": "Settings"
+  },
+  "exchange": {
+    "give": "I give",
+    "get": "I get",
+    "amount": "Amount",
+    "address": "Address",
+    "destination_tag": "Destination tag (optional)",
+    "exchange": "Exchange",
+    "requisites": "Requisites",
+    "rate": "Rate",
+    "amount_error": "The amount must be between {{min}} and {{max}}",
+    "send_money": "Transfer money using the bank details",
+    "sended": "I transferred",
+    "id": "ID",
+    "status": "Status",
+    "rawRate": "Supplier Rate",
+    "createdAt": "Creation Date",
+    "not_found": "Operation not found"
+  },
+  "client": {
+    "info": "User Information",
+    "id": "ID",
+    "referredBy": "Referred By",
+    "referralToken": "Referral Token",
+    "createdAt": "Registration Date",
+    "status": "Status"
+  },
+  "status": {
+    "STATUS_UNSPECIFIED": "Unspecified",
+    "STATUS_CREATED": "Created",
+    "STATUS_PENDING": "Pending",
+    "STATUS_SUCCESS": "Success",
+    "STATUS_FAILED": "'Failed'",
+    "STATUS_UNKNOWN": "'Unknown",
+    "STATUS_ACTIVE": "Active"
+  }
+}

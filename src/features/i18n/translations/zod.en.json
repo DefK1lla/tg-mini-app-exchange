@@ -1,0 +1,113 @@
+{
+  "errors": {
+    "invalid_type": "Expected type - {{expected}}, received - {{received}}",
+    "invalid_type_received_undefined": "Required field",
+    "invalid_type_received_null": "Required field",
+    "invalid_literal": "Incorrect literal value, expected {{expected}}",
+    "unrecognized_keys": "Invalid keys in object: {{- keys}}",
+    "invalid_union": "Union results could not be merged",
+    "invalid_union_discriminator": "Incorrect discriminator value. Expected {{- options}}",
+    "invalid_enum_value": "Incorrect enum value. Expected {{- options}}, received '{{received}}'",
+    "invalid_arguments": "Incorrect function argument type",
+    "invalid_return_type": "Incorrect function return value type",
+    "invalid_date": "Incorrect date format",
+    "custom": "Invalid input",
+    "invalid_intersection_types": "Union results could not be merged",
+    "not_multiple_of": "Number must be a multiple of {{multipleOf}}",
+    "not_finite": "Number must be finite",
+    "invalid_string": {
+      "email": "Incorrect {{validation}}",
+      "url": "Incorrect {{validation}}",
+      "uuid": "Incorrect {{validation}}",
+      "cuid": "Incorrect {{validation}}",
+      "regex": "Incorrect {{validation}}",
+      "datetime": "Incorrect {{validation}}",
+      "startsWith": "Incorrect format, must start with \"{{startsWith}}\"",
+      "endsWith": "Incorrect format, must end with \"{{endsWith}}\""
+    },
+    "too_small": {
+      "array": {
+        "exact": "Array must have exactly {{minimum}} elements",
+        "inclusive": "Array must have at least {{minimum}} elements",
+        "not_inclusive": "Array must have more than {{minimum}} elements"
+      },
+      "string": {
+        "exact": "String must have exactly {{minimum}} characters",
+        "inclusive": "String must have at least {{minimum}} characters",
+        "not_inclusive": "String must have more than {{minimum}} characters"
+      },
+      "number": {
+        "exact": "Number must be exactly {{minimum}}",
+        "inclusive": "Number must be greater than or equal to {{minimum}}",
+        "not_inclusive": "Number must be greater than {{minimum}}"
+      },
+      "set": {
+        "exact": "Invalid input",
+        "inclusive": "Invalid input",
+        "not_inclusive": "Invalid input"
+      },
+      "date": {
+        "exact": "Date must be {{- minimum, datetime}}",
+        "inclusive": "Date must be greater than or equal to {{- minimum, datetime}}",
+        "not_inclusive": "Date must be greater than {{- minimum, datetime}}"
+      }
+    },
+    "too_big": {
+      "array": {
+        "exact": "Array must have exactly {{maximum}} elements",
+        "inclusive": "Array must have no more than {{maximum}} elements",
+        "not_inclusive": "Array must have fewer than {{maximum}} elements"
+      },
+      "string": {
+        "exact": "String must have exactly {{maximum}} characters",
+        "inclusive": "String must have no more than {{maximum}} characters",
+        "not_inclusive": "String must have fewer than {{maximum}} characters"
+      },
+      "number": {
+        "exact": "Number must be exactly {{maximum}}",
+        "inclusive": "Number must be less than or equal to {{maximum}}",
+        "not_inclusive": "Number must be less than {{maximum}}"
+      },
+      "set": {
+        "exact": "Invalid input",
+        "inclusive": "Invalid input",
+        "not_inclusive": "Invalid input"
+      },
+      "date": {
+        "exact": "Date must be {{- maximum, datetime}}",
+        "inclusive": "Date must be less than or equal to {{- maximum, datetime}}",
+        "not_inclusive": "Date must be less than {{- maximum, datetime}}"
+      }
+    }
+  },
+  "validations": {
+    "email": "Email",
+    "url": "URL",
+    "uuid": "UUID",
+    "cuid": "CUID",
+    "regex": "Regular expression",
+    "datetime": "Date and time"
+  },
+  "types": {
+    "function": "Function",
+    "number": "Number",
+    "string": "String",
+    "nan": "NaN",
+    "integer": "Integer",
+    "float": "Floating point number",
+    "boolean": "Boolean value",
+    "date": "Date",
+    "bigint": "Big integer",
+    "undefined": "Undefined",
+    "symbol": "Symbol",
+    "null": "null",
+    "array": "Array",
+    "object": "Object",
+    "unknown": "Unknown",
+    "promise": "Promise",
+    "void": "Void",
+    "never": "Never",
+    "map": "Map",
+    "set": "Set"
+  }
+}

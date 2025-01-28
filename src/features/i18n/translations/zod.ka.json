@@ -1,0 +1,113 @@
+{
+  "errors": {
+    "invalid_type": "მოსალოდნელი ტიპი - {{expected}}, მიღებულია - {{received}}",
+    "invalid_type_received_undefined": "სავალდებულო ველი",
+    "invalid_type_received_null": "სავალდებულო ველი",
+    "invalid_literal": "არასწორი ლიტერალური მნიშვნელობა, მოსალოდნელი იყო {{expected}}",
+    "unrecognized_keys": "ობიექტში არასწორი გასაღებები: {{- keys}}",
+    "invalid_union": "გაერთიანების შედეგები ვერ გაერთიანდა",
+    "invalid_union_discriminator": "არასწორი დისკრიმინატორის მნიშვნელობა. მოსალოდნელი იყო {{- options}}",
+    "invalid_enum_value": "არასწორი ჩამონათვალის მნიშვნელობა. მოსალოდნელი იყო {{- options}}, მიღებულია '{{received}}'",
+    "invalid_arguments": "ფუნქციის არგუმენტების არასწორი ტიპი",
+    "invalid_return_type": "ფუნქციის დაბრუნებული მნიშვნელობის არასწორი ტიპი",
+    "invalid_date": "თარიღის არასწორი ფორმატი",
+    "custom": "არასწორი შეყვანა",
+    "invalid_intersection_types": "გაერთიანების შედეგები ვერ გაერთიანდა",
+    "not_multiple_of": "რიცხვი უნდა იყოს {{multipleOf}}-ის ჯერადი",
+    "not_finite": "რიცხვი უნდა იყოს საბოლოო",
+    "invalid_string": {
+      "email": "არასწორი {{validation}}",
+      "url": "არასწორი {{validation}}",
+      "uuid": "არასწორი {{validation}}",
+      "cuid": "არასწორი {{validation}}",
+      "regex": "არასწორი {{validation}}",
+      "datetime": "არასწორი {{validation}}",
+      "startsWith": "არასწორი ფორმატი, უნდა იწყებოდეს \"{{startsWith}}\"",
+      "endsWith": "არასწორი ფორმატი, უნდა მთავრდებოდეს \"{{endsWith}}\""
+    },
+    "too_small": {
+      "array": {
+        "exact": "მასივში უნდა იყოს ზუსტად {{minimum}} ელემენტი",
+        "inclusive": "მასივში უნდა იყოს არანაკლებ {{minimum}} ელემენტი",
+        "not_inclusive": "მასივში უნდა იყოს მეტი ვიდრე {{minimum}} ელემენტი"
+      },
+      "string": {
+        "exact": "სტრიქონში უნდა იყოს ზუსტად {{minimum}} სიმბოლო",
+        "inclusive": "სტრიქონში უნდა იყოს არანაკლებ {{minimum}} სიმბოლო",
+        "not_inclusive": "სტრიქონში უნდა იყოს მეტი ვიდრე {{minimum}} სიმბოლო"
+      },
+      "number": {
+        "exact": "რიცხვი უნდა იყოს ზუსტად {{minimum}}",
+        "inclusive": "რიცხვი უნდა იყოს მეტი ან ტოლი {{minimum}}",
+        "not_inclusive": "რიცხვი უნდა იყოს მეტი ვიდრე {{minimum}}"
+      },
+      "set": {
+        "exact": "არასწორი შეყვანა",
+        "inclusive": "არასწორი შეყვანა",
+        "not_inclusive": "არასწორი შეყვანა"
+      },
+      "date": {
+        "exact": "თარიღი უნდა იყოს {{- minimum, datetime}}",
+        "inclusive": "თარიღი უნდა იყოს მეტი ან ტოლი {{- minimum, datetime}}",
+        "not_inclusive": "თარიღი უნდა იყოს მეტი ვიდრე {{- minimum, datetime}}"
+      }
+    },
+    "too_big": {
+      "array": {
+        "exact": "მასივში უნდა იყოს ზუსტად {{maximum}} ელემენტი",
+        "inclusive": "მასივში უნდა იყოს არაუმეტეს {{maximum}} ელემენტი",
+        "not_inclusive": "მასივში უნდა იყოს ნაკლები ვიდრე {{maximum}} ელემენტი"
+      },
+      "string": {
+        "exact": "სტრიქონში უნდა იყოს ზუსტად {{maximum}} სიმბოლო",
+        "inclusive": "სტრიქონში უნდა იყოს არაუმეტეს {{maximum}} სიმბოლო",
+        "not_inclusive": "სტრიქონში უნდა იყოს ნაკლები ვიდრე {{maximum}} სიმბოლო"
+      },
+      "number": {
+        "exact": "რიცხვი უნდა იყოს ზუსტად {{maximum}}",
+        "inclusive": "რიცხვი უნდა იყოს ნაკლები ან ტოლი {{maximum}}",
+        "not_inclusive": "რიცხვი უნდა იყოს ნაკლები ვიდრე {{maximum}}"
+      },
+      "set": {
+        "exact": "არასწორი შეყვანა",
+        "inclusive": "არასწორი შეყვანა",
+        "not_inclusive": "არასწორი შეყვანა"
+      },
+      "date": {
+        "exact": "თარიღი უნდა იყოს {{- maximum, datetime}}",
+        "inclusive": "თარიღი უნდა იყოს ნაკლები ან ტოლი {{- maximum, datetime}}",
+        "not_inclusive": "თარიღი უნდა იყოს ნაკლები ვიდრე {{- maximum, datetime}}"
+      }
+    }
+  },
+  "validations": {
+    "email": "ელ.ფოსტა",
+    "url": "URL",
+    "uuid": "UUID",
+    "cuid": "CUID",
+    "regex": "რეგულარული გამოხატულება",
+    "datetime": "თარიღი და დრო"
+  },
+  "types": {
+    "function": "ფუნქცია",
+    "number": "რიცხვი",
+    "string": "სტრიქონი",
+    "nan": "NaN",
+    "integer": "მთელი რიცხვი",
+    "float": "მცურავი წერტილის რიცხვი",
+    "boolean": "ბულური მნიშვნელობა",
+    "date": "თარიღი",
+    "bigint": "დიდი რიცხვი",
+    "undefined": "განსაზღვრული არ არის",
+    "symbol": "სიმბოლო",
+    "null": "null",
+    "array": "მასივი",
+    "object": "ობიექტი",
+    "unknown": "უცნობი",
+    "promise": "პრომისი",
+    "void": "ცარიელი",
+    "never": "არასდროს",
+    "map": "ჰეშ-ცხრილი",
+    "set": "მრავალი"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "common": {
+    "error": "Ошибка",
+    "language": "Язык",
+    "holder": "Владелец карты",
+    "number": "Номер карты",
+    "oops": "Ой...",
+    "copy": "Копировать"
+  },
+  "auth": {
+    "create_a_pin": "Придумайте ПИН",
+    "enter_your_pin": "Введите свой ПИН",
+    "sign_in": "Войти",
+    "sign_up": "Зарегистрироваться",
+    "token_label": "Реферальный токен",
+    "token_placeholder": "Введите токен",
+    "continue": "Продолжить",
+    "pins_dont_match": "Пины не совпадают",
+    "already_registered": "Вы уже зарегистрированы",
+    "verification_code": "Введите код потдверждения",
+    "code": "Код подтверждения",
+    "refech_code": "Создать новый",
+    "no_code": "Запросить новый код можно через",
+    "submit": "Отправить",
+    "success": "Аккаунт успешно создан",
+    "login_error": "Неверный ПИН",
+    "logout": "Выйти"
+  },
+  "bottom_bar": {
+    "exchange": "Обмен",
+    "history": "История",
+    "settings": "Settings"
+  },
+  "exhange": {
+    "give": "Я отдаю",
+    "get": "Я получаю",
+    "amount": "Сумма",
+    "addres": "Адрес",
+    "destination_tag": "Тег назначения (необязательно)",
+    "exchange": "Обмен",
+    "requisites": "Реквизиты",
+    "rate": "Курс",
+    "amount_error": "Сумма должна быть в диапазоне {{min}}={{max}}",
+    "send_money": "Переведите деньги по реквизитам",
+    "sended": "Я перевёл",
+    "id": "ID",
+    "status": "Статус",
+    "rawRate": "Курс поставщика",
+    "createdAt": "Дата создания",
+    "not_found": "Операция не найдена"
+  },
+  "client": {
+    "info": "Информация пользователя",
+    "id": "ID",
+    "referredBy": "Пригласивший",
+    "referralToken": "Реферальный токен",
+    "createdAt": "Дата регистрации",
+    "status": "Статус"
+  },
+  "status": {
+    "STATUS_UNSPECIFIED": "Не указано",
+    "STATUS_CREATED": "Создано",
+    "STATUS_PENDING": "В ожидании",
+    "STATUS_SUCCESS": "Успешно",
+    "STATUS_FAILED": "Неудача",
+    "STATUS_UNKNOWN": "Неизвестно",
+    "STATUS_ACTIVE": "Активно"
+  }
+}

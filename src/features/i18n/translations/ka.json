@@ -1,0 +1,70 @@
+{
+  "common": {
+    "error": "შეცდომა",
+    "language": "ენა",
+    "holder": "ბარათის მფლობელი",
+    "number": "ბარათის ნომერი",
+    "oops": "აუფ...",
+    "copy": "კოპირება"
+  },
+  "auth": {
+    "create_a_pin": "შექმენით PIN კოდი",
+    "enter_your_pin": "შეიყვანეთ თქვენი PIN კოდი",
+    "sign_in": "შესვლა",
+    "sign_up": "რეგისტრაცია",
+    "token_label": "რეფერალური ტოკენი",
+    "token_placeholder": "შეიყვანეთ ტოკენი",
+    "continue": "შემდეგი",
+    "confirm_a_pin": "დაადასტურეთ PIN კოდი",
+    "pins_dont_match": "PIN კოდები არ ემთხვევა",
+    "already_registered": "თქვენ უკვე დარეგისტრირებული ხართ",
+    "verification_code": "შეიყვანეთ დამადასტურებელი კოდი",
+    "code": "დამადასტურებელი კოდი",
+    "refech_code": "შექმენით ახალი",
+    "no_code": "თქვენ შეგიძლიათ მოითხოვოთ ახალი კოდი",
+    "submit": "გაგზავნა",
+    "success": "ანგარიში წარმატებით შეიქმნა",
+    "login_error": "არასწორი PIN",
+    "logout": "გასვლა"
+  },
+  "bottom_bar": {
+    "exchange": "გაცვლა",
+    "history": "ისტორია",
+    "settings": "პარამეტრები"
+  },
+  "exchange": {
+    "give": "მე ვაძლევ",
+    "get": "მე ვიღებ",
+    "amount": "თანხა",
+    "address": "მისამართი",
+    "destination_tag": "დანიშნულების თეგი (არასავალდებულო)",
+    "exchange": "გაცვლა",
+    "requisites": "რეკვიზიტები",
+    "rate": "კურსი",
+    "amount_error": "თანხა უნდა იყოს {{min}}-დან {{max}}-მდე",
+    "send_money": "გადარიცხეთ ფული საბანკო რეკვიზიტების გამოყენებით",
+    "sended": "გადავრიცხე",
+    "id": "ID",
+    "status": "სტატუსი",
+    "rawRate": "მომწოდებლის კურსი",
+    "createdAt": "შექმნის თარიღი",
+    "not_found": "ოპერაცია ვერ მოიძებნა"
+  },
+  "client": {
+    "info": "მომხმარებლის ინფორმაცია",
+    "id": "ID",
+    "referredBy": "რეკომენდატორი",
+    "referralToken": "რეფერალური ტოკენი",
+    "createdAt": "რეგისტრაციის თარიღი",
+    "status": "სტატუსი"
+  },
+  "status": {
+    "STATUS_UNSPECIFIED": "გაურკვეველი",
+    "STATUS_CREATED": "შექმნილია",
+    "STATUS_PENDING": "მოლოდინშია",
+    "STATUS_SUCCESS": "წარმატებული",
+    "STATUS_FAILED": "ჩავარდნილი",
+    "STATUS_UNKNOWN": "უცნობი",
+    "STATUS_ACTIVE": "აქტიური"
+  }
+}
